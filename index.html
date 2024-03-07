@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>xox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="board-container">
+            <div class="board" id="board">
+                
+            </div>
+            <div id="status" class="status">Player X's turn</div>
+            <button onclick="resetGame()">Reset Game</button>
+        </div>
+        <div id="scoreboard" class="scoreboard">
+            <p>Player X: <span id="scoreX">0</span></p>
+            <p>Player O: <span id="scoreO">0</span></p>
+            <button onclick="resetScores()">Reset Scores</button>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
